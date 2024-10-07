@@ -1,0 +1,241 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0rem;
+}
+
+.container-navbar {
+
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: right; 
+}
+
+.ul-navbar {
+    display: flex;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: right; 
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.li-navbar:hover {
+    background-color: green;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+
+}
+
+.container-content {
+    background-color: green;
+    margin:0;
+    pad: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.img-content {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+
+.hero h1 {
+    background-color: green;
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero .cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Section styles */
+section {
+    background-color: green;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: gr;
+    padding: 50px 0;
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.testimonial-item .customer-name {
+    font-weight: bold;
+}
+
+/* Contact Form */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+input, textarea {
+    background-color: white;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color:#0056b3;
+}
+
+/* Footer */
+footer {
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 28px;
+}
+
+@media only screen and (max-width : 768px) {
+    .ul-navbar {
+        display: none;
+    }
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 500px) {
+.container {
+    background-color: white;
+}
+}
